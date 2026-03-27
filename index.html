@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Aishwarya Singnath - Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-mode">
+    <!-- Cherry Blossom Animation Background -->
+    <div class="cherry-blossom-container">
+        <!-- Left Tree -->
+        <svg class="cherry-tree left-tree" viewBox="0 0 200 500" xmlns="http://www.w3.org/2000/svg">
+            <rect x="90" y="200" width="20" height="300" fill="#654321" opacity="0.6"/>
+            <path d="M 100 250 Q 60 230 40 220" stroke="#654321" stroke-width="8" fill="none" opacity="0.6"/>
+            <path d="M 100 280 Q 140 260 160 250" stroke="#654321" stroke-width="8" fill="none" opacity="0.6"/>
+            <path d="M 100 220 Q 80 200 70 180" stroke="#654321" stroke-width="6" fill="none" opacity="0.6"/>
+            <circle cx="40" cy="220" r="35" fill="#FFB6C1" opacity="0.7"/>
+            <circle cx="160" cy="250" r="30" fill="#FFC0CB" opacity="0.7"/>
+            <circle cx="70" cy="180" r="25" fill="#FFB6C1" opacity="0.7"/>
+            <circle cx="100" cy="200" r="40" fill="#FFC0CB" opacity="0.7"/>
+        </svg>
+        
+        <!-- Right Tree -->
+        <svg class="cherry-tree right-tree" viewBox="0 0 200 500" xmlns="http://www.w3.org/2000/svg">
+            <rect x="90" y="200" width="20" height="300" fill="#654321" opacity="0.6"/>
+            <path d="M 100 250 Q 140 230 160 220" stroke="#654321" stroke-width="8" fill="none" opacity="0.6"/>
+            <path d="M 100 280 Q 60 260 40 250" stroke="#654321" stroke-width="8" fill="none" opacity="0.6"/>
+            <path d="M 100 220 Q 120 200 130 180" stroke="#654321" stroke-width="6" fill="none" opacity="0.6"/>
+            <circle cx="160" cy="220" r="35" fill="#FFB6C1" opacity="0.7"/>
+            <circle cx="40" cy="250" r="30" fill="#FFC0CB" opacity="0.7"/>
+            <circle cx="130" cy="180" r="25" fill="#FFB6C1" opacity="0.7"/>
+            <circle cx="100" cy="200" r="40" fill="#FFC0CB" opacity="0.7"/>
+        </svg>
+        
+        <!-- Falling Petals -->
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+        <div class="petal"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="velora-logo.png" alt="Velora" class="velora-logo" onerror="this.style.display='none'">
+                <span>Aishwarya Singnath</span>
+            </div>
+            
+            <!-- Running Dog Animation -->
+            <div class="dog-runner">
+                <svg class="dog-svg" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="60" cy="45" rx="28" ry="16" fill="#D4A574" class="dog-body"/>
+                    <circle cx="38" cy="38" r="14" fill="#D4A574" class="dog-head"/>
+                    <ellipse cx="32" cy="30" rx="6" ry="12" fill="#C49563" class="ear-left" transform="rotate(-20 32 30)"/>
+                    <ellipse cx="44" cy="30" rx="6" ry="12" fill="#C49563" class="ear-right" transform="rotate(20 44 30)"/>
+                    <circle cx="34" cy="36" r="2.5" fill="#2C3E50" class="eye"/>
+                    <circle cx="42" cy="36" r="2.5" fill="#2C3E50" class="eye"/>
+                    <circle cx="38" cy="42" r="2" fill="#2C3E50"/>
+                    <path d="M 38 44 Q 36 46 34 45" stroke="#2C3E50" stroke-width="1.5" fill="none"/>
+                    <path d="M 38 44 Q 40 46 42 45" stroke="#2C3E50" stroke-width="1.5" fill="none"/>
+                    <path d="M 88 42 Q 98 35 105 38" stroke="#D4A574" stroke-width="6" fill="none" class="tail" stroke-linecap="round"/>
+                    <rect x="45" y="56" width="5" height="16" rx="2" fill="#D4A574" class="leg leg1"/>
+                    <rect x="56" y="56" width="5" height="16" rx="2" fill="#D4A574" class="leg leg2"/>
+                    <rect x="67" y="56" width="5" height="16" rx="2" fill="#D4A574" class="leg leg3"/>
+                    <rect x="78" y="56" width="5" height="16" rx="2" fill="#D4A574" class="leg leg4"/>
+                    <ellipse cx="47.5" cy="72" rx="3" ry="2" fill="#C49563" class="paw paw1"/>
+                    <ellipse cx="58.5" cy="72" rx="3" ry="2" fill="#C49563" class="paw paw2"/>
+                    <ellipse cx="69.5" cy="72" rx="3" ry="2" fill="#C49563" class="paw paw3"/>
+                    <ellipse cx="80.5" cy="72" rx="3" ry="2" fill="#C49563" class="paw paw4"/>
+                </svg>
+            </div>
+            
+            <div class="nav-right">
+                <button class="theme-toggle" id="themeToggle" title="Toggle Dark Mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="5"/>
+                        <line x1="12" y1="1" x2="12" y2="3"/>
+                        <line x1="12" y1="21" x2="12" y2="23"/>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+                        <line x1="1" y1="12" x2="3" y2="12"/>
+                        <line x1="21" y1="12" x2="23" y2="12"/>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+                    </svg>
+                </button>
+                <div class="nav-dots">
+                    <span class="nav-dot active" data-section="0"></span>
+                    <span class="nav-dot" data-section="1"></span>
+                    <span class="nav-dot" data-section="2"></span>
+                    <span class="nav-dot" data-section="3"></span>
+                    <span class="nav-dot" data-section="4"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Horizontal Scroll Container -->
+    <div class="scroll-container">
+        <!-- Section 1: Hero -->
+        <section class="section hero-section">
+            <div class="section-content">
+                <h1 class="hero-title">Hi, I'm Aishwarya Singnath</h1>
+                <p class="hero-subtitle">I design and develop thoughtful, user-friendly web experiences.</p>
+                <p class="hero-description">Focused on building clean, responsive websites that help businesses grow.</p>
+                <div class="hero-buttons">
+                    <button class="cta-button" onclick="scrollToSection(4)">Let's Work Together</button>
+                    <a href="https://github.com/aishwaryasingh0217-collab" target="_blank" class="secondary-button">View GitHub</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: About & Velora -->
+        <section class="section about-section">
+            <div class="section-content">
+                <h2 class="section-title">About Me</h2>
+                
+                <div class="about-with-photo">
+                    <div class="about-photo">
+                        <img src="aishwarya-photo.jpg" alt="Aishwarya Singnath" class="profile-photo">
+                    </div>
+                    <div class="about-box">
+                        <p>I'm a web developer with a Computer Science background from <strong>Vision Institute of Engineering and Technology, Kanpur</strong>. With a strong foundation in modern web technologies, I'm passionate about creating websites that are not just functional, but delightful to use.</p>
+                        <p>Currently pursuing <strong>Full Stack Development at Apponix Institute, Hubballi</strong>, I focus on building responsive, user-friendly websites that help businesses establish their online presence.</p>
+                    </div>
+                </div>
+                
+                <div class="velora-box">
+                    <img src="velora-logo.png" alt="Velora Web Solutions" class="velora-logo-large" onerror="this.style.display='none'">
+                    <h3>Velora Web Solutions</h3>
+                    <p>Through Velora Web Solutions, I work with clients to bring their digital ideas to life. Whether you're a small business looking to establish an online presence or need a custom web solution, I'm here to help create impactful digital experiences.</p>
+                    <div class="velora-contact">
+                        <span>📧 velorawebsolution@gmail.com</span>
+                        <span>📱 +91 8310979654</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Projects -->
+        <section class="section projects-section">
+            <div class="section-content">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-showcase">
+                    <div class="project-card">
+                        <div class="project-number">01</div>
+                        <h3>GolfGive Platform</h3>
+                        <p>A full-stack charity platform connecting golf enthusiasts with charitable causes. Features user authentication, subscription management, Stripe payment integration, and comprehensive admin dashboard.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>React</span>
+                            <span>TypeScript</span>
+                            <span>Supabase</span>
+                            <span>Stripe</span>
+                        </div>
+                        <a href="https://golf-app-mocha.vercel.app" target="_blank" class="project-link">View Live →</a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-number">02</div>
+                        <h3>Weighbridge Receipt System</h3>
+                        <p>Built a receipt generation system for weighbridge operations with structured format for weight, vehicle, and billing details. Demonstrates real-world data handling and business workflow understanding.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/aishwaryasingh0217-collab" target="_blank" class="project-link">View on GitHub →</a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-number">03</div>
+                        <h3>Amit Bags – Business Website</h3>
+                        <p>Developed a responsive website for a bag store with clean, user-friendly interface to display products and store details. Fully responsive design for mobile and desktop screens.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <a href="https://github.com/aishwaryasingh0217-collab" target="_blank" class="project-link">View on GitHub →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Skills & Education -->
+        <section class="section skills-section">
+            <div class="section-content">
+                <h2 class="section-title">Skills & Education</h2>
+                
+                <div class="skills-container">
+                    <div class="skill-group">
+                        <h3>Frontend Development</h3>
+                        <div class="skill-items">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Next.js</span>
+                            <span>Bootstrap</span>
+                            <span>Responsive Design</span>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-group">
+                        <h3>Backend Development</h3>
+                        <div class="skill-items">
+                            <span>Python</span>
+                            <span>Node.js</span>
+                            <span>MySQL</span>
+                            <span>Supabase</span>
+                            <span>API Integration</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-group">
+                        <h3>Tools & Others</h3>
+                        <div class="skill-items">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>Vercel</span>
+                            <span>SEO Basics</span>
+                            <span>Payment Integration</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-box">
+                    <div class="edu-item">
+                        <h4>Full Stack Development</h4>
+                        <p>Apponix Institute, Hubballi</p>
+                        <span>Oct 2025 - Present</span>
+                    </div>
+                    <div class="edu-item">
+                        <h4>B.E. Computer Science (CGPA: 8.00/10)</h4>
+                        <p>Vision Institute of Engineering and Technology, Kanpur</p>
+                        <span>2018 - 2021</span>
+                    </div>
+                </div>
+
+                <div class="why-me">
+                    <h3>Why Work With Me</h3>
+                    <div class="why-grid">
+                        <div class="why-item">
+                            <span class="why-icon">✨</span>
+                            <p>Clean Design Approach</p>
+                        </div>
+                        <div class="why-item">
+                            <span class="why-icon">🎯</span>
+                            <p>Client-Focused Mindset</p>
+                        </div>
+                        <div class="why-item">
+                            <span class="why-icon">📚</span>
+                            <p>Continuous Learning</p>
+                        </div>
+                        <div class="why-item">
+                            <span class="why-icon">⚡</span>
+                            <p>Quick & Adaptable</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Contact -->
+        <section class="section contact-section">
+            <div class="section-content">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="contact-subtitle">Have a project in mind? Let's create something amazing together.</p>
+                
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="contact-icon-large">📧</div>
+                        <h4>Email</h4>
+                        <a href="mailto:aishwaryasingh0217@gmail.com" class="email-link">aishwaryasingh0217@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon-large">📱</div>
+                        <h4>Phone</h4>
+                        <a href="tel:+918310979654">+91 8310979654</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon-large">📍</div>
+                        <h4>Location</h4>
+                        <p>Hubli, India</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon-large">💼</div>
+                        <h4>GitHub</h4>
+                        <a href="https://github.com/aishwaryasingh0217-collab" target="_blank">View Portfolio →</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon-large">📷</div>
+                        <h4>Instagram</h4>
+                        <button onclick="openInstagram()" class="instagram-link">@ashwarya_17</button>
+                    </div>
+                </div>
+
+                <div class="cta-final">
+                    <p>Open to remote work and flexible shifts</p>
+                    <p class="tagline">Building the web, one project at a time.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Floating Contact Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/918310979654?text=Hi%20Aishwarya%2C%20I%20came%20across%20your%20portfolio%20and%20I%27m%20impressed%20with%20your%20work.%20I%27d%20love%20to%20discuss%20a%20potential%20project%20with%20you." 
+           class="whatsapp-button" 
+           target="_blank"
+           title="Chat on WhatsApp">
+            <svg viewBox="0 0 32 32" fill="white" width="28" height="28">
+                <path d="M16 0C7.164 0 0 7.164 0 16c0 2.825.738 5.488 2.031 7.794L0 32l8.394-2.031C10.7 31.262 13.363 32 16 32c8.836 0 16-7.164 16-16S24.836 0 16 0zm0 29.333c-2.544 0-4.944-.706-6.981-1.931l-.5-.3-5.181 1.25 1.25-5.181-.3-.5C2.706 20.944 2 18.544 2 16 2 8.28 8.28 2 16 2s14 6.28 14 14-6.28 13.333-14 13.333zm7.731-10.106c-.425-.213-2.506-1.238-2.894-1.381-.387-.144-.669-.213-.95.213-.281.425-1.088 1.381-1.331 1.669-.244.281-.494.319-.919.106-.425-.213-1.794-.663-3.419-2.113-1.263-1.125-2.119-2.519-2.363-2.944-.244-.425-.025-.656.188-.869.194-.194.425-.5.638-.75.213-.25.281-.425.425-.713.144-.281.075-.531-.038-.744-.113-.213-1.006-2.425-1.381-3.325-.363-.875-.731-.756-1.006-.769-.256-.013-.55-.019-.844-.019-.294 0-.775.113-1.181.531-.406.425-1.556 1.519-1.556 3.706s1.594 4.3 1.813 4.594c.219.288 3.094 4.725 7.494 6.625 1.044.45 1.863.719 2.5.919.1.031 1.913.581 3.656.344 1.119-.169 2.506-1.025 2.856-2.019.356-.994.356-1.844.25-2.019-.106-.175-.394-.281-.819-.494z"/>
+            </svg>
+        </a>
+        
+        <a href="mailto:aishwaryasingh0217@gmail.com?subject=Portfolio%20Inquiry%20from%20Website&body=Hi%20Aishwarya%2C%0A%0AI%20came%20across%20your%20portfolio%20and%20I%27m%20impressed%20with%20your%20work.%20I%27d%20love%20to%20discuss%20a%20potential%20project%20with%20you.%0A%0ABest%20regards" 
+           class="email-button" 
+           title="Send Email">
+            <svg viewBox="0 0 24 24" fill="white" width="28" height="28">
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+        </a>
+        
+        <button class="instagram-button" 
+                onclick="openInstagram()" 
+                title="Follow on Instagram">
+            <svg viewBox="0 0 24 24" fill="white" width="28" height="28">
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <button class="nav-arrow nav-arrow-left" onclick="scrollToSection(currentSection - 1)">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 18l-6-6 6-6"/>
+        </svg>
+    </button>
+    <button class="nav-arrow nav-arrow-right" onclick="scrollToSection(currentSection + 1)">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18l6-6-6-6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
