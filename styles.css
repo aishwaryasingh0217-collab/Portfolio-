@@ -1062,6 +1062,7 @@ body.dark-mode .tagline {
 }
 
 .whatsapp-button,
+.linkedin-button,
 .email-button {
     width: 65px;
     height: 65px;
@@ -1083,9 +1084,19 @@ body.dark-mode .tagline {
     box-shadow: 0 12px 32px rgba(37, 211, 102, 0.5);
 }
 
+.linkedin-button {
+    background: linear-gradient(135deg, #0A66C2, #004182);
+    animation-delay: 0.5s;
+}
+
+.linkedin-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 12px 32px rgba(10, 102, 194, 0.5);
+}
+
 .email-button {
     background: linear-gradient(135deg, #FF6B9D, #FF8FAB);
-    animation-delay: 0.5s;
+    animation-delay: 1s;
 }
 
 .email-button:hover {
@@ -1097,7 +1108,7 @@ body.dark-mode .tagline {
     background: linear-gradient(135deg, #E1306C, #C13584, #833AB4);
     border: none;
     cursor: pointer;
-    animation-delay: 1s;
+    animation-delay: 1.5s;
 }
 
 .instagram-button:hover {
@@ -1231,6 +1242,7 @@ body.dark-mode .tagline {
     }
     
     .whatsapp-button,
+    .linkedin-button,
     .email-button,
     .instagram-button {
         width: 55px;
@@ -1298,6 +1310,7 @@ body.dark-mode .tagline {
     }
     
     .whatsapp-button,
+    .linkedin-button,
     .email-button,
     .instagram-button {
         width: 50px;
